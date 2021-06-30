@@ -9,7 +9,7 @@
 </head>
 <body>
     <form method="GET" name="formulario" 
-    action="formulario.html" onsubmit="">
+    action="formulario.html" onsubmit="return validar(this)">
 
 
     Nombre:
@@ -26,5 +26,7 @@
     <br>
     <input type="reset" value="Borrar" name="borrar">
     </form>
+
+    <a href="index.html">Regresar al menú principal</a>
 </body>
 </html>
